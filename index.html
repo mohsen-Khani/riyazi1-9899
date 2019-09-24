@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/css/main.css">
     <title>ریاضی عمومی ۱، نیمسال اول ۹۹-۹۸</title>
 </head>
@@ -35,7 +39,22 @@
         <p id="update-time" dir="ltr"> آخرین روزآمد:
             <time id="time"></time>
         </p>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="allgroup-tab" data-toggle="tab" href="#allgroup" role="tab" aria-controls="allgroup"
+                   aria-selected="true">همه‌ی گروه‌ها</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="manteq-tab" data-toggle="tab" href="#manteq" role="tab" aria-controls="manteq"
+                   aria-selected="false">گروه دکتر خانی</a>
+            </li>
+        </ul>
 
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="allgroup" role="tabpanel" aria-labelledby="allgroup-tab">
+
+            </div>
+        </div>
         <h2 class="title">اطلاعیه‌ها</h2>
         <p>
         <ul>
