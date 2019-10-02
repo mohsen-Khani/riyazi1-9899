@@ -148,3 +148,7 @@ a{
 .tab-pane{
     margin-top: 5%;
 }
+.bold{
+    font-weight: bolder;
+    text-decoration: blueviolet;
+}
