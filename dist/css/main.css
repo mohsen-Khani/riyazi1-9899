@@ -139,9 +139,16 @@ i{
     /*0 0 3px #999;*/
     /*margin: -50px auto 10px;*/
 }
-a {
+.noticed {
+    color: deepskyblue;
+}
+a{
     color: red;
 }
 .tab-pane{
     margin-top: 5%;
+}
+.bold{
+    font-weight: bolder;
+    text-decoration: blueviolet;
 }
